@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshika - Developer Portfolio </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"> 
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: #091228;
+      color: rgb(255, 255, 255);
+    }
+    nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 90px;
+      background-color: #343d56;}
+    nav ul {
+      display: flex;
+      justify-content:  center;
+
+    }
+    nav ul li{
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: rgb(244, 244, 236);
+    }
+    nav ul li a:hover{
+      color: rgb(136, 142, 145);
+      font-size: 1.02rem;
+
+    }
+
+    main hr {
+    border: 0;
+    height: 2px;
+    background-color: #0a39bc;
+    margin: 91px 0;
+    }
+    .left{
+      font-size: 1.5rem;
+  
+      margin-right: 200px;
+    }
+
+    
+     .firstSection{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 110px 0;
+    
+      
+    }
+    .firstSection >div {
+      width: 30%;
+ 
+    }
+    .leftsection {
+      font-size: 2.5rem;
+      line-height: 1.5;
+      margin: 70px;
+      
+    }
+    .leftsection .buttons {
+      padding: 30px;
+    }
+    .leftsection .btn {
+    padding: 12px;
+    background-color: #152342;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+    
+
+  
+    .leftsection div {
+      font-size: 1rem;
+      margin-top: 15px;
+
+    }
+    
+    .rightsection img{
+      width: 90%;
+    }
+    .purple{
+      color: rgb(42, 153, 208);
+    }
+
+    #element {
+      color:rgb(42, 153, 208);
+      
+    }
+    .sectionsecond{
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+
+    }
+    .sectionsecond h1{
+      font-size: 1.9rem;
+      margin-top: 8px;
+  
+    }
+    
+    .sectionsecond .box {
+    background-color: #0a39bc;
+    width: 85vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+    gap: 25px;
+    
+    }
+  .sectionsecond .vertical {
+    height: 75px;
+    width: 2px;
+    background-color: #0a39bc;
+    align-items: flex-start;
+    margin: 0 190px;
+    
+    }
+    .vertical-title {
+    width: 190px;
+    position: relative;
+    top: 70px;
+    color: rgb(144, 175, 201);
+    font-size: 30px;
+   
+}
+  .vertical-desc{
+      position: relative;
+      top: 95px;
+      left: -2px;
+      color: azure;
+      width: 200px;
+      font-size: 22px;
+    letter-spacing: 1px;
+      
+  }
+  .sectionsecond .vertical-desc {
+    position: static;
+    padding: 30px;
+    margin-top: 75px;
+    
+    
+    color: #e5edf9;
+    background: linear-gradient(135deg, #101d3d, #172d52);
+    
+    border-radius: 15px;
+    
+    transition: 0.3s ease;
+}
+
+
+
+
+  .thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+.thirdsection h1 {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+.thirdsection .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.thirdsection .vertical {
+    width: 33.33%;
+    height: auto;
+    border: 1px solid #1c4a91;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.thirdsection .vertical img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.thirdsection .vertical-title {
+    position: static;
+    width: 100%;
+    margin-top: 15px ;
+    color: rgb(144, 175, 201);
+    font-size: 22px;
+}
+.project-tag {
+    display: inline-block;
+    color: #70baff;
+    background: #193c68;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.project-desc {
+    color: #c4d2e8;
+    font-size: 23px;
+    line-height: 1.7;
+    margin: 15px 0;
+}
+
+.tech {
+    border-top: 1px solid #29466e;
+    padding-top: 12px;
+    color: #65adff;
+    font-size: 10px;
+  }
+  footer{
+    background-color: #586a85;
+    height: 125px;
+    font-size: 25px;
+    color: white;
+
+  
+  }
+  .footer{
+    display: flex;
+    padding: 20px 90px;
+    justify-content: space-evenly;
+    color: #180925;
+
+  }
+
+  .footer ul{
+    list-style: none;
+    font-size: 19px;
+    
+  }
+  .footer> div{
+    width: 223px;
+  }
+  footer .rights{
+    text-align: center;
+    font-size: 20px;
+    background-color: #212e42;
+    height: 30px;
+    color: rgb(136, 133, 133);
+  }
+
+  
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Anshika's Portfolio</div>
+      <div class="Right">
+        <ul>
+          <li><a href="/">Home </a></li>
+          <li><a href="/">About</a></li>
+          <li> <a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+
+   <section class="firstSection">
+
+    <div class="leftsection">
+        Hi My name is
+        <span class="purple">Anshika</span>
+        Pandey and I am a B.Tech Student.
+       <br>
+
+        <span id="element"></span>
+        <div class="buttons">
+          <button class="btn">DOWNLOAD RESUME</button>
+          <button class="btn">VISIT GITHUB</button>
+        </div>
+
+
+    </div>
+
+    <div class="rightsection">
+        <img src="anshii.png.jpeg" alt="">
+    </div>
+</section>
+
+
+<hr>
+
+   <section class="sectionsecond">
+    <span class="text-grey"> My Growth so far </span>
+    <h1> My Learning Journey. </h1>
+    <div class="box">
+      <div class="vertical">
+
+        <div class=" vertical-title">
+         What I have Learned?
+        </div>
+        <div class="vertical-desc">
+          
+          
+      I am currently learning Frontend Web Development as part of my BTech training. I have learned the basics of HTML, CSS, and JavaScript and I am improving my skills by creating small projects.
+        </div>
+
+      </div>
+      <div class="vertical">
+        <div class="vertical-title">
+          Skills I am developing
+
+        </div>
+        <div class="vertical-desc">
+          I am developing my skills in designing attractive web pages, creating responsive layouts, and adding interactive features using JavaScript. I am also learning to write clean and organized code.
+        </div>
+      </div>
+
+      <div class="vertical">
+        <div class="vertical-title">
+          My Future Goals
+
+        </div>
+        <div class="vertical-desc">
+          My goal is to become a skilled Frontend Developer. I want to learn new technologies, improve my coding skills, and build creative and user-friendly websites.
+
+
+        </div>
+      </div>
+
+     
+
+      </div>
+      
+    </div>
+</section>
+<hr>
+<section class="thirdsection">
+  <span class="text-grey"> Turning Ideas into Reality </span>
+  <h1> Project I've Built</h1>
+  <span class="text-grey"> A Showcase of my practical work and creativity. </span>
+  
+
+
+
+
+
+
+
+
+
+  <div class="box">
+     <div class="vertical">
+       <div class=" vertical-title">
+         Myntra Bag
+        </div>
+      
+        <img src="png.1pg.jpeg" alt="">
+
+        <span class="project-tag"> E-COMMERS</span>
+       <P class="project-desc">
+        Created a shopping bag page to learn Product display, Web structure and frontend styling.
+       </P>
+       <div class="tech">
+        HTML | CSS | JavaScript
+       </div>
+        
+
+      </div>
+
+
+    <div class="vertical">
+      <div class=" vertical-title">
+        Cricket
+        </div>
+        <img src="png.2pg.png" alt="">
+         <span class="project-tag"> WEB PROJECT</span>
+         <P class="project-desc">
+        Created a cricket based Project to practice Web development and interactive elements.
+       </P> 
+
+        <div class="tech">
+        HTML | CSS | JavaScript
+        </div>
+
+
+        
+
+
+
+
+
+    </div>
+     <div class="vertical">
+      <div class=" vertical-title">
+        Calculator
+        </div>
+        <img src="2pg.p.png" alt="">
+
+        <span class="project-tag"> JAVASCRIPT</span>
+         <P class="project-desc">
+        Built a calculator. To practise mathematical operations And Java script functionality.
+       </P> 
+
+        <div class="tech">
+        HTML | CSS | JavaScript
+        </div>
+     </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+</section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>Anshika's Portfolio</h3>
+
+
+
+      </div>
+      <div class="footer-second">
+
+        <ul>
+          <li>
+  
+<a href=  "anshikap114@gmail.com" target="_blank">
+   Gmail
+    
+</a>
+
+</li>
+<li>
+  <a href="https://github.com/anshika8118" target="_blank">
+    GitHub
+    
+</a>
+</li>
+<li>
+  
+   <a href="https://www.linkedin.com/in/anshika-pandey-61231a431/" target="_blank">
+    Linkedin
+</li>
+
+
+      
+        </ul>
+      </div>
+      
+      
+
+
+
+    </div>
+    
+    <div class="rights">
+      Copyright&#169; www.anshikasportfolio.com | All rights reserved
+
+    </div>
+
+
+  </footer>
+
+
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+   <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Frontend</i> Developer.', '&amp;  VIDEO Editor , Graphics Designer).'],
+      typeSpeed: 50,
+    });
+  </script>
+  
+  
+
+</body>
+</html>
